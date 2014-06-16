@@ -1,0 +1,191 @@
+#uploadify{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px 10px;
+	}
+	#m-wrap{
+		width: 712px;
+		color: rgb(10, 10, 10);
+		letter-spacing: 1px;
+		border: 1px solid rgb(69, 71, 69);
+		padding-left: 10px;;
+	}
+	#m-wrap label{
+		position: relative;
+		display: block;
+		padding: 0px 0 10px;
+		margin: 14px 0;
+		}
+
+		#m-wrap span.pos{
+			position: absolute;
+			left: 90px;
+			top: 1px;
+			display: block;
+		}
+
+
+	#m-wrap label.describe{
+		height: 176px;
+		}
+		#m-wrap .fileup div{
+			float: left;
+		}
+		#m-wrap span.txt{
+			border: 1px solid rgb(69, 71, 69);
+			height: 183px;
+			overflow: hidden;
+			width: 609px;
+		}
+		#m-wrap span.txt textarea{
+			width: 100%;
+			color: rgb(56, 51, 51);
+			height: 87%;
+			overflow: hidden;
+			background-color: rgb(253, 253, 253);
+			font-size: 18px;
+		}
+		#m-wrap span.txt .tip{
+			display: block;
+			float: right;
+			font-size: 12px;
+			margin-right: 3px;
+		}
+
+	#m-wrap label.category{
+		height: 157px;
+		}		
+		#m-wrap .category div {
+			font-size: 14px;
+			width: 158px;
+			height: 154px;
+			float: left;
+			border: 1px solid rgb(71, 71, 70);
+			margin: 1px 30px 0 0;
+			line-height: 30px;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+		#m-wrap .category div.child{
+			display: none;
+			width: 208px;
+		}
+		#m-wrap .category li:hover{
+			background-color: rgb(156, 133, 133);
+		}
+	#m-wrap label.up-verify{
+		display: block;
+		height: 23px;
+		}	
+		#m-wrap label.up-verify input[type="text"]{
+			padding: 5px;
+			border-radius: 5px;
+			}	
+			#m-wrap .up-verify .verify_img{
+				position: absolute;
+				left: 262px;
+				top: 2px;
+				float: left;
+			}
+	#m-wrap label.acti{
+		height: 25px;
+		}
+		#m-wrap label.acti span.subm{
+				display: block;
+				margin: 0 0 0 300px;
+			}
+			#m-wrap label.acti input{
+				position: absolute;
+				left: 312px;
+				top: 0px;
+				padding: 10px 32px;
+				font-size: 14px;
+				letter-spacing: 6px;
+				font-weight: bold;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				background-color: rgb(107, 100, 100);
+			}
+			#m-wrap label.acti input:hover{
+				background-image: linear-gradient(rgb(61, 58, 58), rgb(126, 121, 121));
+			}	
+	
+	#m-wrap .note{
+		line-height: 25px;
+		font-size: 14px;
+		}
+		#m-wrap .note li:hover{
+			/*cursor: pointer;*/
+			}
+
+
+			.subm .upl-1{
+			width:98px;
+			font-size: 22px;
+			letter-spacing: 1px;
+			border-radius: 17px;
+			border: 2px solid rgb(204, 201, 201);
+			display: block;
+			text-align: center;
+			background-color: rgb(172, 172, 170);
+			background-image: -webkit-gradient(   linear,   left bottom,   left top,   color-stop(0, rgb(160, 148, 148)),   color-stop(1, rgb(224, 222, 222))   );
+			line-height: 33px;
+			position: absolute;
+			left: 91px;
+			top: 0px;
+			}
+			.subm .upl-2{
+				position: absolute;
+				left: 210px;
+				top: 0px;
+				width:174px;
+				font-size: 22px;
+				letter-spacing: 1px;
+				border-radius: 17px;
+				border: 2px solid rgb(204, 201, 201);
+				display: block;
+				text-align: center;
+				background-color: rgb(172, 172, 170);
+				background-image: -webkit-gradient(   linear,   left bottom,   left top,   color-stop(0, rgb(172, 159, 159)),   color-stop(1, rgb(224, 223, 223))   );
+				line-height: 33px;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

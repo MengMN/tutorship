@@ -1,0 +1,404 @@
+/*computer.php		*/
+.g-wrap{
+	margin: 10px auto;
+	width: 1192px;
+	}
+#content{
+		border: 1px solid #A89595;
+		width: 1192px;
+		color: #fff;
+		padding: 9px;
+		height: 1994px;
+		}
+		#content div.computer{
+			height: 1763px;
+			border-radius: 25px;
+			}
+			#content div.computer .Title-item{
+				height: 78px;
+				line-height: 78px;
+				border: 5px solid #FFF;
+				border-radius: 18px;
+				padding: 0 20px;
+				font-size:22px;
+				font-weight: bolder;
+			}
+			
+			div.computer .layout{
+				border-radius: 26px;
+				margin-top: 48px;
+				}			
+				div.computer .level-title{
+					height: 40px;
+					line-height: 40px;
+					border: 6px solid #FFF;
+					padding: 0;
+					text-indent: 20px;
+					font-size: 20px;
+					font-weight: bolder;
+					letter-spacing: 2px;
+					border-radius: 25px;
+					margin: 0 auto;
+					text-align: center;
+					}
+					div.computer .level1 .level-title{
+						width: 15%;
+						background-color: #E052A2;
+						}
+					div.computer .level2 .level-title{
+						width: 22%;
+						background-color: #FFA560;;
+						}
+					div.computer .level3 .level-title{
+						width: 27%;
+						background-color: #4C48FC;
+						}
+					div.computer .level4 .level-title{
+						width: 32%;
+						background-color: #008050;
+						}
+		div.computer .level1-content{
+			width: 100%;
+			overflow: hidden;
+			-moz-animation:sliding1 8s;
+			-webkit-animation:sliding1 8s; /* Chrome, Safari, Opera */
+			animation:sliding1 8s;
+			}
+			@-webkit-keyframes sliding1
+			{
+			from {height:0px;}
+			to {height:190px;}
+			}
+		div.computer .level2-content{
+			width: 100%;
+			overflow: hidden;
+			-moz-animation:sliding2 18s;
+			-webkit-animation:sliding2 18s; /* Chrome, Safari, Opera */
+			animation:sliding2 18s;
+			}
+			@-webkit-keyframes sliding2
+			{
+			from {height:0px;}
+			to {height:632px;}
+			}
+		div.computer .level3-content{
+		width: 100%;
+		overflow: hidden;
+		-moz-animation:sliding3 8s;
+		-webkit-animation:sliding3 8s; /* Chrome, Safari, Opera */
+		animation:sliding3 8s;
+		}
+		@-webkit-keyframes sliding3
+		{
+		from {height:0px;}
+		to {height:317px;}
+		}
+		div.computer .level4-content{
+		width: 100%;
+		overflow: hidden;
+		-moz-animation:sliding4 8s;
+		-webkit-animation:sliding4 8s; /* Chrome, Safari, Opera */
+		animation:sliding4 8s;
+		}
+		@-webkit-keyframes sliding4
+		{
+		from {height:0px;}
+		to {height:317px;}
+		}	
+		div.computer .ct{
+			/*display: none;*/
+
+		}	
+			div.computer .ct div#item{
+				height: 40px;
+				line-height: 40px;
+				font-size: 18px;
+				font-weight: bold;
+				letter-spacing: 5px;
+				border: 6px solid #FFF;
+				border-radius: 20px;
+				overflow: hidden;
+				margin: 1px auto 0; 
+				text-indent: 20px;
+				text-align: center;
+		
+				}
+			
+				div.computer .ct div#item.rt11{
+					width: 37%;
+					background-color: #CF2275;
+					/*animation:sliding11 8s;
+					-moz-animation:sliding11 8s;
+					-webkit-animation:sliding11 8s;
+					}
+					@-webkit-keyframes sliding11
+					{
+					from {width:10%;}
+					to {width:35%;}*/
+					}
+				div.computer .ct div#item.rt12{
+					width: 55%;
+					background-color: #C71973;
+					/*animation:sliding12 6s;
+					-moz-animation:sliding12 6s;
+					-webkit-animation:sliding12 6s;
+					}
+					@-webkit-keyframes sliding12
+					{
+					from {width:10%;}
+					to {width:55%;}*/
+					}
+				div.computer .ct div#item.rt13{
+					width: 75%;
+					background-color: #A70064;
+					/*animation:sliding13 4s;
+					-moz-animation:sliding13 4s;
+					-webkit-animation:sliding13 4s;
+					}
+					@-webkit-keyframes sliding13
+					{
+					from {width:10%;}
+					to {width:75%;}*/
+					}
+				div.computer .ct div#item.rt21{
+					width: 30%;
+					background-color: #FFA550;
+					/*animation:sliding21 4s;
+					-moz-animation:sliding21 4s;
+					-webkit-animation:sliding21 4s;
+					}
+					@-webkit-keyframes sliding21
+					{
+					from {width:10%;}
+					to {width:30%;}*/
+					}
+				div.computer .ct div#item.rt22{
+					width: 35%;
+					background-color: #FFA540;
+					/*animation:sliding22 4s;
+					-moz-animation:sliding22 4s;
+					-webkit-animation:sliding22 4s;
+					}
+					@-webkit-keyframes sliding22
+					{
+					from {width:10%;}
+					to {width:35%;}*/
+					}
+				div.computer .ct div#item.rt23{
+					width: 40%;
+					background-color: #FFA530;
+					/*animation:sliding23 4s;
+					-moz-animation:sliding23 4s;
+					-webkit-animation:sliding23 4s;
+					}
+					@-webkit-keyframes sliding23
+					{
+					from {width:10%;}
+					to {width:40%;}*/
+					}
+				div.computer .ct div#item.rt24{
+					width: 45%;
+					background-color: #FFA520;
+					/*animation:sliding24 4s;
+					-moz-animation:sliding24 4s;
+					-webkit-animation:sliding24 4s;
+					}
+					@-webkit-keyframes sliding24
+					{
+					from {width:10%;}
+					to {width:35%;}*/
+					}
+				div.computer .ct div#item.rt25{
+					width: 50%;
+					background-color: #FFA510;
+					/*animation:sliding25 4s;
+					-moz-animation:sliding25 4s;
+					-webkit-animation:sliding25 4s;
+					}
+					@-webkit-keyframes sliding25
+					{
+					from {width:10%;}
+					to {width:50%;}*/
+					}
+				div.computer .ct div#item.rt26{
+					width: 55%;
+					background-color: #FFA500;
+					/*animation:sliding26 4s;
+					-moz-animation:sliding26 4s;
+					-webkit-animation:sliding26 4s;
+					}
+					@-webkit-keyframes sliding26
+					{
+					from {width:10%;}
+					to {width:55%;}*/
+					}
+				div.computer .ct div#item.rt27{
+					width: 60%;
+					background-color: #FD8F10;
+					/*animation:sliding27 4s;
+					-moz-animation:sliding27 4s;
+					-webkit-animation:sliding27 4s;
+					}
+					@-webkit-keyframes sliding27
+					{
+					from {width:10%;}
+					to {width:60%;}*/
+					}
+				div.computer .ct div#item.rt28{
+					width: 65%;
+					background-color: #FD8500;
+					/*animation:sliding28 4s;
+					-moz-animation:sliding28 4s;
+					-webkit-animation:sliding28 4s;
+					}
+					@-webkit-keyframes sliding28
+					{
+					from {width:10%;}
+					to {width:65%;}*/
+					}
+				div.computer .ct div#item.rt29{
+					width: 70%;
+					background-color: #FD8500;
+					/*animation:sliding29 4s;
+					-moz-animation:sliding29 4s;
+					-webkit-animation:sliding29 4s;
+					}
+					@-webkit-keyframes sliding29
+					{
+					from {width:10%;}
+					to {width:70%;}*/
+					}
+				div.computer .ct div#item.rt20{
+					width: 75%;
+					background-color: #FD7F00;
+					/*animation:sliding20 4s;
+					-moz-animation:sliding20 4s;
+					-webkit-animation:sliding20 4s;
+					}
+					@-webkit-keyframes sliding20
+					{
+					from {width:10%;}
+					to {width:75%;}*/
+					}
+				div.computer .ct div#item.rt31{
+					width: 35%;
+					background-color: #3C48FC;
+					/*animation:sliding31 4s;
+					-moz-animation:sliding31 4s;
+					-webkit-animation:sliding31 4s;
+					}
+					@-webkit-keyframes sliding31
+					{
+					from {width:10%;}
+					to {width:35%;}*/
+					}
+				div.computer .ct div#item.rt32{
+					width: 45%;
+					background-color: #2C48FC;
+					/*animation:sliding32 4s;
+					-moz-animation:sliding32 4s;
+					-webkit-animation:sliding32 4s;
+					}
+					@-webkit-keyframes sliding32
+					{
+					from {width:10%;}
+					to {width:45%;}*/
+					}
+				div.computer .ct div#item.rt33{
+					width: 55%;
+					background-color: #1F41CC;
+					/*animation:sliding33 4s;
+					-moz-animation:sliding33 4s;
+					-webkit-animation:sliding33 4s;
+					}
+					@-webkit-keyframes sliding33
+					{
+					from {width:10%;}
+					to {width:55%;}*/
+					}
+				div.computer .ct div#item.rt34{
+					width: 65%;
+					background-color: #002ABD;
+					/*animation:sliding34 4s;
+					-moz-animation:sliding34 4s;
+					-webkit-animation:sliding34 4s;
+					}
+					@-webkit-keyframes sliding34
+					{
+					from {width:10%;}
+					to {width:65%;}*/
+					}
+				div.computer .ct div#item.rt35{
+					width: 75%;
+					background-color: #01238D;
+					/*animation:sliding35 4s;
+					-moz-animation:sliding35 4s;
+					-webkit-animation:sliding35 4s;
+					}
+					@-webkit-keyframes sliding35
+					{
+					from {width:10%;}
+					to {width:75%;}*/
+					}
+				div.computer .ct div#item.rt41{
+					width: 35%;
+					background-color: #008040;
+					/*animation:sliding41 4s;
+					-moz-animation:sliding41 4s;
+					-webkit-animation:sliding41 4s;
+					}
+					@-webkit-keyframes sliding41
+					{
+					from {width:10%;}
+					to {width:35%;}*/
+					}
+				div.computer .ct div#item.rt42{
+					width: 45%;
+					background-color: #008030;
+					/*animation:sliding42 4s;
+					-moz-animation:sliding42 4s;
+					-webkit-animation:sliding42 4s;
+					}
+					@-webkit-keyframes sliding42
+					{
+					from {width:10%;}
+					to {width:45%;}*/
+					}
+				div.computer .ct div#item.rt43{
+					width: 55%;
+					background-color: #008020;
+					/*animation:sliding43 4s;
+					-moz-animation:sliding43 4s;
+					-webkit-animation:sliding43 4s;
+					}
+					@-webkit-keyframes sliding43
+					{
+					from {width:10%;}
+					to {width:55%;}*/
+					}
+				div.computer .ct div#item.rt44{
+					width: 65%;
+					background-color: #008010;
+					/*animation:sliding44 4s;
+					-moz-animation:sliding44 4s;
+					-webkit-animation:sliding44 4s;
+					}
+					@-webkit-keyframes sliding44
+					{
+					from {width:10%;}
+					to {width:65%;}*/
+					}
+				div.computer .ct div#item.rt45{
+					width: 75%;
+					background-color: #008000;
+					/*animation:sliding45 4s;
+					-moz-animation:sliding45 4s;
+					-webkit-animation:sliding45 4s;
+					}
+					@-webkit-keyframes sliding45
+					{
+					from {width:10%;}
+					to {width:75%;}*/
+					}
+
+			/*the end of content*/

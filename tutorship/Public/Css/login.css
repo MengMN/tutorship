@@ -1,0 +1,72 @@
+
+#login{
+	border: 1px solid rgb(102, 93, 93);
+	margin: 50px auto;
+	width: 540px;
+	overflow: hidden;
+	background-color: rgb(163, 163, 163);
+	opacity: 1;
+	}
+	#l-wrap{
+		width: 500px;
+		margin: 15px auto;
+		border: 1px solid rgb(102, 93, 93);
+		background-color: rgb(255, 255, 255);
+
+	}
+	#l-wrap h3{
+		text-align: center;
+		color: #fff;
+		padding: 10px;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+	#l-wrap label{
+		display: block;
+		padding: 0 0 10px 0;
+		}
+
+		#l-wrap span{
+			font-size: 16px;
+			color: rgb(9, 9, 9);
+		}
+		#l-wrap span.react{
+			display: block;
+			width: 229px;
+			margin:0 auto;
+			padding:16px 15px 16px 54px;
+			overflow:hidden;
+		}
+		#l-wrap input{
+			width: 384px;
+			padding: 8px 0;
+			border-radius: 5px;
+			font-size: 13px;
+			background-color: rgb(253, 252, 252);
+			border: 1px solid rgb(73, 73, 73);
+			color: rgb(2, 2, 2);
+			margin: 5px 0 0 0;
+			}
+		
+		#l-wrap input[type="submit"],#l-wrap input[type="button"]{
+			width: 110px;
+			font-size: 14px;
+			letter-spacing: 7px;
+			margin: 0 0 0 44px;
+			/*margin-left: 20px;*/
+		}
+		#l-wrap input[type="submit"]:hover,#l-wrap input[type="button"]:hover{
+			background-image: -webkit-linear-gradient(rgb(209, 208, 208), rgb(182, 168, 168));
+			cursor: pointer;
+		}
+		#l-wrap .verify{
+			width: 100px;
+		}
+		#l-wrap .label-verify{
+			position: relative;
+		}
+		#l-wrap .verify_img{
+			position: absolute;
+			left:206px;
+			top: 6px; 
+		}

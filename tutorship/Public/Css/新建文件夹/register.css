@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	overflow-y:scroll;
+}
+body{
+	color: #3F2E2E;
+	background-color: rgb(27, 25, 25);
+	
+}
+ul{
+	list-style: none;
+}
+#register{
+	width: 942px;
+	opacity: 1;
+	overflow: hidden;
+	height: 635px;
+	}
+	#m-wrap{
+		margin: 15px 0 0 30px;
+		width: 870px;
+	}
+	#m-wrap h3{
+		color: #fff;
+		padding: 10px 10px 0px;
+		text-indent: 102px;
+	}
+	#m-wrap label{
+		display: block;
+		padding: 28px 0 0px 0;
+		}
+		#m-wrap .check,#m-wrap .act{
+			font-size: 14px;
+			color: rgb(128, 128, 121);
+			}
+
+			#m-wrap span{
+				font-size: 16px;
+				color: rgb(146, 140, 140);
+				}
+
+			#m-wrap .verify_img{
+				position: absolute;
+				width: 140px;
+				height: 40px;
+				}
+				#m-wrap .verify_img img{
+					position: absolute;
+					left: 25px;
+					top: 5px;
+					border-radius: 5px;
+					border: 1px solid rgb(228, 218, 218);
+					}
+			#m-wrap input{
+				width: 384px;
+				padding: 8px 0;
+				border-radius: 5px;
+				font-size: 13px;
+				background-color: rgb(36, 34, 34);
+				border: 1px solid #fff;
+				color: #fff;
+				margin: 5px 0 0 0;
+				}
+				#m-wrap .check > a{
+					color: rgb(95, 92, 92);
+					font-size: 14px;
+					margin: 0 0 0 10px;
+					text-decoration: none;
+					}
+			#m-wrap .verify{
+				width: 120px;
+				}
+			#m-wrap .check {
+				display: block;
+				margin: 0 auto;
+				width: 297px;
+			}
+			#m-wrap .act {
+				display: block;
+				margin: 0 auto;
+				width: 135px;
+			}
+			#m-wrap input[type="checkbox"]{
+				width: auto;
+				margin: 10px 0 0px 20px;
+				}
+
+			#m-wrap input[type="submit"]{
+				font-size: 14px;
+				letter-spacing: 7px;
+				width: 135px;
+				margin: 0 auto;
+				}
+			
+			#m-wrap input[type="submit"]:hover{
+				background-image: -webkit-linear-gradient(rgb(105, 105, 105), rgb(52, 52, 52));
+				cursor: pointer;
+				}
+	#m-wrap div.checkU{
+		display: none;
+		height: 22px;
+		line-height: 22px;
+		text-align: left;
+		font-size: 12px;
+		color: rgb(80, 155, 21);
+		letter-spacing: 1px;
+		overflow: hidden;
+		text-indent: 20px;
+		margin: 12px auto 0;
+		float: right;
+		width: 371px;
+	}
+	#m-wrap span.success{
+		display: block;
+		background: url(../Image/pwd_sprite.png) no-repeat 3px -248px;
+		height: 20px;
+		line-height: 20px;
+		text-align: left;
+		font-size: 12px;
+		color: rgb(94, 153, 47);
+		letter-spacing: 1px;
+		overflow: hidden;
+		text-indent: 20px;
+	}
+
+	#m-wrap span.check_name,
+	#m-wrap span.check_email,
+	#m-wrap span.check_pass,
+	#m-wrap span.check_repass{
+		display: block;
+		height: 18px;
+		line-height: 18px;
+		text-align: left;
+		font-size: 12px;
+		color: rgb(80, 155, 21);
+		letter-spacing: 1px;
+		overflow: hidden;
+		text-indent: 20px;
+		float: right;
+		width: 371px;
+		background: url(../Image/pwd_sprite.png) no-repeat 2px -283px;
+	}
+
+
+
+

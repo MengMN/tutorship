@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/Public/Css/register.css">
+	<script type="text/javascript" src="/Public/Js/register.js"></script>
+	<title>注册</title>
+</head>
+<body>
+	<div id="register">
+		<div id="m-wrap">
+			<h3>等级考试辅导系统注册</h3>
+			<form action="/Admin/controllers/register.php" method="post" onsubmit="return checkAll();">
+				<label>
+					<span>用 户 名：</span>
+					<input type="text" name="username" id="name" class="username" placeholder="用户名" onblur="showName();">
+					<div class="checkU">
+						
+					</div>
+				</label>
+				
+				<label>
+					<span>邮 　 箱：</span>
+					<input type="email" name="email" class="email" placeholder="邮箱" onblur="showEmail();" >
+					<div class="checkU">
+						
+					</div>
+				</label>
+				
+				<label>
+					<span>密 　 码：</span>
+					<input type="password" name="password" class="password" placeholder="密码" onblur="showPass();">
+					<div class="checkU">
+						
+					</div>
+				</label>
+				
+				<label>
+					<span>重复密码：</span>
+					<input type="password" class="repass" name="repass" placeholder="重复密码" onblur="ShowInfo();">
+					<div class="checkU">
+						
+					</div>
+				</label>
+				
+				<label>
+					<span>验 证 码：</span>
+					<input type="text" name="verify" class="verify" placeholder="验证码" onblur="showVerify();">
+					<span class="verify_img">
+						<img src="/Admin/controllers/code.php" onclick="javascript:this.src='/Admin/controllers/code.php?tm='+Math.random();" />
+					</span>
+					<div class="checkU">
+
+					</div>
+				</label>
+				<label >
+					<span class="check">
+						<input type="checkbox" id="checkB" checked>我已阅读并同意<a href="">&lt;等级考试辅导系统协议&gt;</a>
+					</span>
+				</label>
+				<label>
+					<span  class="act">
+						<input type="submit" name="submit" class="submit" value="提交"  >
+					</span>
+				</label>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+<?php 
+		session_start();
+?>
+<header>
+	<div id="header-bar">
+		<ul>
+			<li><a href="">欢迎来到等级考试网上辅导系统</a>
+			<li><a href="">收藏本站</a>
+	<?php 
+		if (empty($_SESSION['username']) ) {
+			echo "<li><a href=\"/Admin/views/login.htm\">登录</a>";
+			echo "<li><a href=\"/Admin/views/register.htm\">注册</a>";
+		}else{
+			echo "<li>欢迎".$_SESSION['username'];
+			echo "<li><a href=\"/Admin/controllers/layOut.php\">退出</a>";
+		}
+	 ?>	
+	 		<li><a href="/Admin/views/personal.php">个人中心</a>
+		</ul>
+	</div>
+	<div class="m-wrap">
+		<div class="logo">
+			<img src="/Public/Image/logo.jpg" alt="等级考试网上辅导系统" />
+		</div>
+		<div class="search">
+			<form action="/Admin/views/search.php" class="f-search" method="get">
+				<input name="dataName" type="text" placeholder="请输入关键字" />
+				<input type="submit" value="搜索" />
+			</form>
+		</div>
+	</div>		
+</header>
+<nav class="main-bar">
+	<div class="m-wrap2">				
+		<ul>
+			<li><a href="/Admin/views/index.php">主页</a></li>
+			<li><a href="/Admin/views/news.php">计算机等级考试新闻</a></li>
+			<li><a href="/Admin/views/computer.php">计算机等级考试学习资料</a></li>
+			<li><a href="/Admin/views/upload.php">上传资料</a></li>
+			<li><a href="">其他</a></li>
+		</ul>
+		<div class="help">
+			<a href="">帮助</a>
+		</div>			
+	</div>
+</nav>
+<div class="navigation">
+	<div class="m-wrapT">
+		全站导航
+	</div>
+</div>

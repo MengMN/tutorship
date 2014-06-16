@@ -1,0 +1,227 @@
+#content{
+	/*width: 70%;*/
+	border: 1px solid green;
+	height: 400px;
+	}
+	#ct-left{
+		width: 68%;
+		height: 393px;
+		float: left;
+		padding: 0 20px 0  0;
+		background-color: rgb(248, 247, 247);
+		}
+		.ct-title{
+			width: 100%;
+			height: 40px;
+			line-height: 40px;
+			font-size: 14px;
+			font-weight: bolder;
+			letter-spacing: 1px;
+			background: -webkit-linear-gradient(right bottom, rgba(255, 0, 0, 0), rgb(104, 103, 103));
+
+		}
+		.ct-content{
+			width: 100%;
+			padding: 10px 0;
+			height: 332px;
+			/*clear: both;*/
+			}
+
+			.ct-content .summary{
+				float: left;
+				width: 392px;
+				margin: 0 10px 0 0px;
+				}
+				.ct-content .summary img{
+					float: left;
+					margin: 9px 17px 10px 0;
+				}
+				.ct-content .summary span{
+					/*display: block;*/
+					height: 30px;
+					line-height: 30px;
+				}
+			.ct-content .information {
+				width: 285px;
+				height: 296px;
+				float: left;
+				padding-left: 10px;
+				border: 1px solid rgb(63, 59, 59);
+			}
+			.ct-content .information ul{
+				line-height: 30px;
+			}
+			li.stars{
+				/*background:url(../Image/gx_hxx2.gif) no-repeat 48px center;*/
+			}
+			.ct-content .information span{
+				height: 42px;
+				display: block;
+				overflow: hidden;
+				background:url(../Image/xiazai.png) no-repeat ;
+				width: 155px;
+
+				float: left;
+				margin: 20px 0 0 0px;
+				cursor: pointer;
+			}
+			.ct-content .information > strong{
+				display: block;
+				float: left;
+				width: 100px;
+				height: 39px;
+				border: 1px solid gray;
+				background-color: rgb(80, 80, 80);
+				text-align: center;
+				font-size: 12px;
+				list-style: none;
+				line-height: 20px;
+				color: rgb(158, 157, 157);
+			}
+			.appraisal{
+				display: block;
+				border: 1px solid rgb(128, 124, 124);
+				margin: 0px 0 0 0;
+				height: 607px;
+				}
+				.appraisal ul{
+					display: block;
+					height: 20px;
+					float: left;
+					width: 698px;
+					}
+					.appraisal img{
+						display: block;
+						float: left;
+						}
+					.appraisal li{
+						float: left;
+						padding: 0 0 0 1px;
+						}
+					.appraisal li.post,.appraisal li.gf{
+						float: right;
+						}
+					.appraisal li.post{
+						cursor: pointer;
+						}	
+			.appraisal .discuzz{
+				display: none;
+				clear: both;
+				height: 210px;
+				border: 1px solid rgb(100, 91, 91);
+				padding: 20px;
+				}
+				.appraisal .discuzz span{
+					padding: 4px;
+					line-height: 30px;
+				}
+				.appraisal .discuzz span.tip{
+					font-size: 12px;
+					color: rgb(158, 150, 150);
+				}
+				.appraisal .discuzz span.text{
+					display: block;
+					width: 650px;
+					height: 100px;
+					overflow: hidden;
+					}
+					.appraisal .discuzz textarea{
+						width: 649px;
+						height: 100px;
+						}
+					.appraisal .discuzz .action{
+						float: right;
+						}
+					.discuzz .action > input,.discuzz .action > span{
+						cursor: pointer;
+						width: 60px;
+						height: 30px;
+						color: #fff;
+						font-size: 14px;
+						border: 1px solid #fff;
+				        background: -webkit-linear-gradient(right bottom, rgba(255, 0, 0, 0), rgb(104, 103, 103));
+					}
+					.discuzz .action > span{
+						padding: 7px 14px;
+					}
+			.appraisal .publish ul{
+				display: block;
+				font-size: 14px;
+				height: 32px;
+				}
+				.appraisal .publish ul li{
+					width: 696px;
+					display: block;
+					border-top:1px solid rgb(51, 48, 48);
+					}
+					.appraisal .publish .tp1{
+						display: block;
+						float: left;
+						line-height: 32px;
+						height: 32px; 
+		                margin-right: 20px;  
+					}
+					.appraisal .publish .tp2{
+		                display: block;
+		                float: left;
+		                line-height: 32px;
+		                height: 32px;
+					}
+					.appraisal .publish .tp3{
+		                 display: block;
+		                 float: left;
+		                 line-height: 32px;
+		                 height: 32px;  
+		                 float: right;
+					}
+				.appraisal .publish	.page2{
+					height: 50px;
+					font-size: 14px;
+					line-height: 50px;
+					text-align: center;
+					margin: 22px 0;
+					border: 1px solid rgb(77, 70, 70);
+				}
+	#ct-right{
+		width: 29%;
+		height: 391px;
+		float: left;
+		border: 1px solid rgb(73, 71, 71);
+		}
+		#upload{
+			width: 172px;
+			height: 43px;
+			background: url(../Image/gx_wysc1.gif) no-repeat 0 0;
+			border-radius: 9px;
+			margin: 20px auto;
+			display: block;
+			cursor: pointer;
+		}
+		.related{
+			width: 296px;
+			height: 286px;
+			margin-bottom: 20px;
+			border: 1px solid rgb(56, 55, 55);
+			}
+			.related .re-title{
+				width: 93%;
+				height: 30px;
+				line-height: 30px;
+				text-align: left;
+				letter-spacing: 1px;
+				padding: 0 10px;
+				border: 1px solid rgb(49, 51, 49);
+				background-color: rgb(216, 216, 216);
+				}
+			.related .re-ct{
+				width: 100%;
+				height: 253px;
+				text-indent: 20px;
+				}
+				.related .re-ct li{
+					display: block;
+					width: 100%;
+					line-height: 25px;
+					letter-spacing: 1px;
+
+				}
